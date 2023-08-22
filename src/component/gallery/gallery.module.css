@@ -1,0 +1,64 @@
+.gallery{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+
+}
+.gallery_content{
+    width: 60%;
+    padding: 30px 50px 0px;
+    margin: auto;
+    text-align: center;
+    color: #CCC;
+}
+.gallery_content P{
+    margin-top: 15px;
+    font-size: 12px;
+}
+.slider{
+    width: 70%;
+    height: auto;
+    margin: 30px auto;
+}
+.card{
+    height: 260px;
+}
+.card_top{
+  width: 100%;
+  height: 250px;
+}
+.card_top img{
+    width: 100%;
+    height: 100%;
+
+}
+.card_bottom{
+    margin: 15px;
+    color: #CCC;
+}
+
+.card_bottom p{
+    font-size: 10px;
+    margin-top: 5px;
+}
+.whole_team_btn{
+margin: 30px auto;
+padding: 8px 15px ;
+height: 35px;
+width: 200px;
+background: transparent;
+border: 1px solid #ccc;
+color: #CCC;
+font-size: 12px ;
+
+}
+.whole_team_btn:hover{
+    background-color: #ccc;
+    color: black;
+}
+@media (max-width:768px){
+    .gallery_content{
+        width: 100%;
+    }
+}

@@ -1,0 +1,97 @@
+.Pricing{
+    background: black;
+    color: #ccc;
+    text-align: center;
+    height: auto;
+    padding-top: 30px;
+    background: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url(../../assests/pricing_bg_2.jpg);
+    background-size: cover;
+}
+.pricing_container{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 30px auto;
+    padding-bottom: 30px;
+    background: transparent;
+}
+.card_one{
+    width: 380px;
+    height: 280px;
+    background: rgb(37, 36, 36);
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+.plan_price{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   padding: 25px 15px 15px;
+   font-size: 12px;
+}
+.plan_price p{
+    font-size: 10px;
+    font-style: italic;
+}
+.plan_price h1{
+    color: green;
+    font-size: 30px !important;
+}
+.dollar_symbol{
+    font-size: 15px;
+    color: green;
+}
+.plan_description{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+    text-align: left !important;
+}
+.plan_description span{
+    margin-left: 5px;
+}
+.pricing_btn{
+    background: white;
+    padding: 5px;
+    color: black;
+    width: 180px;
+    margin: 10px auto 30px;
+    align-items: center;
+    border: none;
+    font-size: 12px;
+}
+.card_two{
+    background: white;
+    color: black;
+    height: 320px;
+}
+.pricing_information{
+    text-align: left;
+    margin-left: 20px;
+}
+.pricing_information p{
+    font-size: 12px;
+    margin: 15px auto;
+}
+.plan_details{
+    margin-top: 15px;
+    font-size: 12px;
+}
+.plan_details span{
+    margin-left: 10px;
+}
+
+@media (max-width:768px) {
+#pricing{
+        height: auto;
+    }
+.pricing_container{
+    flex-direction: column;
+}
+}

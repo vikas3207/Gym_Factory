@@ -1,0 +1,104 @@
+nav{
+    /* background:linear-gradient(45deg,rgba(126, 6, 6, 0.5),rgba(0, 0, 0,0.3)); */
+    background: linear-gradient(rgb(105, 107, 240),#070652);
+    box-shadow: 0px 0px 5px #f8f8f8;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    z-index: 99;
+}
+.logo_div{
+    /* display: flex; */
+    /* align-items: center; */
+    cursor: pointer;
+}
+.logo_img img{
+    width: 150px;
+    height: 5vh;
+    
+}
+nav p{
+    margin:10px 15px;
+    color: red;
+}
+.nav_links{
+    float: right;
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    transition: 0.5s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFF;
+    padding-bottom: 3px;
+    font-size: 18px;
+    transition: 0.4s;
+
+}
+nav ul li a:hover{
+    /* transform: scale(1.2); */
+    border-bottom: 1.5px solid red;
+}
+.nav_btn{
+    color: #FFF;
+    background-color:red;
+    padding: 6px 15px;
+    border: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px black;
+}
+.nav_btn:hover{
+    background: black;
+    color: red;
+    
+}
+.nav_icon{
+    margin-right: 20px;
+    color: #FFF;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width:725px){
+   
+    .nav_mobile_links{
+        display: block;
+    }
+    .nav_links{
+        display: none;
+    }
+    .nav_icon{
+        display: block;
+    }
+    nav ul{
+        /* background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)); */
+        background:linear-gradient(rgba(0,0,0,1),#070652);
+        position: fixed;
+        top: 10vh;
+        /* display: block; */
+        width: 100%;
+        /* border-top: 1px solid #ccc; */
+        
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li:hover{
+        background: linear-gradient(85deg,#065245,transparent);
+        }
+        nav ul li a:hover{
+            
+            border-bottom: none;
+        }
+    .nav_btn{
+        display: none;
+    }
+
+}
